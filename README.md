@@ -5,3 +5,6 @@ The effect itself filters the original source into 5 different spectral bands an
 
 11/08/2017:
 I have recieved reports that the plug-in no longer works but I have yet to recreate the issue myself. My guess is this is due to to the project requiring the use of the FFTW library. In the original compilation I used dynamic linking instead of static (before I knew the difference). There have also been numerous updates to the JUCE library since the original release. Accordingly, some of the other parts might be pretty out of date.
+
+14/03/2018
+This version works. Updated to JUCE 5.2.1. Needs FFTW. Best to install it with brew https://brewinstall.org. 
